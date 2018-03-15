@@ -1,0 +1,13 @@
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\bin\Debug\SQLServerAnalyze.exe
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\bin\Debug\SQLServerAnalyze.pdb
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\bin\Debug\SQLServerAnalyze.xml
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\bin\Debug\DAL.dll
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\bin\Debug\DAL.pdb
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\bin\Debug\DAL.xml
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\obj\x86\Debug\SQLServerAnalyze.vbprojResolveAssemblyReference.cache
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\obj\x86\Debug\SQLServerAnalyze.frmLoad.resources
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\obj\x86\Debug\SQLServerAnalyze.Resources.resources
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\obj\x86\Debug\SQLServerAnalyze.vbproj.GenerateResource.Cache
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\obj\x86\Debug\SQLServerAnalyze.exe
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\obj\x86\Debug\SQLServerAnalyze.xml
+D:\Tool\SQLServerAnalyze\SQLServerAnalyze\obj\x86\Debug\SQLServerAnalyze.pdb

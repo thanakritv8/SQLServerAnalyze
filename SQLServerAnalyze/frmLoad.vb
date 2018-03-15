@@ -1,4 +1,4 @@
-﻿Imports DAL
+﻿Imports BLL
 Imports System.Data.SqlClient
 
 Public Class frmLoad
@@ -41,7 +41,7 @@ Public Class frmLoad
     Public Sub Run()
         While _t.IsAlive
             Dim _SQL As String = "SELECT hostname, Command, program_name, Text FROM sys.dm_exec_requests as r, master.dbo.sysprocesses as p CROSS APPLY sys.dm_exec_sql_text(p.sql_handle) t WHERE r.session_id = p.spid"
-            Dim Dt As DataTable = DB.ExecuteSQL(_SQL, conn)
+            Dim Dt As DataTable = objDB.SelectSQL(_SQL, conn)
             If Dt.Rows.Count > 0 Then
                 Dim items = (From p In Dt.AsEnumerable() _
                              Select New With {.Text = p.Field(Of String)("Text"), .Command = p.Field(Of String)("Command")}).ToList()
@@ -68,7 +68,7 @@ Public Class frmLoad
     End Sub
 
     Private Sub frmLoad_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        conn = DB.ConnectDB("ip", "user", "pass")
+        conn = objDB.ConnectDB("10.40.1.10", "sa", "sa")
         strQuery = String.Empty
         strCmd = String.Empty
     End Sub
